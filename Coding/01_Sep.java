@@ -2,7 +2,7 @@
 class Solution {
     public double maxAverageRatio(int[][] classes, int extraStudents) {
         PriorityQueue<double[]> pq = new PriorityQueue<>(new Comparator<double[]>() 
-                                                         {
+        {
             public int compare(double[] a, double[] b) {
                 if (a[0] < b[0]) 
                     return 1;
