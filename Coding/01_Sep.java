@@ -1,4 +1,4 @@
-//Daily Problem 1st September
+// Daily Problem 1st September
 class Solution {
     public double maxAverageRatio(int[][] classes, int extraStudents) {
         PriorityQueue<double[]> pq = new PriorityQueue<>(new Comparator<double[]>() 
