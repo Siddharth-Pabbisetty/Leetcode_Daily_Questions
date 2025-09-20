@@ -1,7 +1,6 @@
 //Daily Problem 12th September
 
 import java.util.*;
-
 class Solution {
     public boolean doesAliceWin(String s) {
         for (int i=0; i<s.length();++i)
@@ -12,4 +11,5 @@ class Solution {
         }
         return false;
     }
-}}
+}
+}
