@@ -10,7 +10,7 @@ class Solution {
             {
                 int top = st.get(st.size() - 1);
                 int g = gcd(top, num);
-                if (g == 1)
+                if (g==1)
                 {
                     break;
                 }
@@ -25,7 +25,7 @@ class Solution {
 
     private int gcd(int a, int b)
     {
-        if (b == 0)
+        if (b==0)
             return a;
         return gcd(b, a % b);
     }
