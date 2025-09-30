@@ -2,7 +2,8 @@
 
 import java.util.*;
 
-class FoodDetails {
+class FoodDetails 
+{
     String name;
     String cuisine;
     int rating;
