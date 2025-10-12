@@ -4,7 +4,6 @@ class Solution {
     public int maxBottlesDrunk(int numBottles, int numExchange) {
         int d=numBottles;
         int e=numBottles;
-
         while(e>=numExchange){
             e=(e*1)-numExchange;
             numExchange++;
