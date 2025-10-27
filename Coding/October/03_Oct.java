@@ -1,7 +1,9 @@
 //Daily problem of 3rd october
 
-class Solution {
-    public int trapRainWater(int[][] heightMap) {
+class Solution 
+{
+    public int trapRainWater(int[][] heightMap) 
+    {
         int m = heightMap.length;
         int n = heightMap[0].length;
         int[][] v = new int[m][n];
