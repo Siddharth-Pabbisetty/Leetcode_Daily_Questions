@@ -1,4 +1,4 @@
-//Daily problem of 21th october
+//Daily problem of 21st october
 
 class Solution {
     public int maxFrequency(int[] nums, int k, int numOperations) {

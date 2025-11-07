@@ -1,4 +1,4 @@
-//Daily problem of 25th october
+//Daily problem of 26th october
 
 class Bank {
     private final long[] bal;
