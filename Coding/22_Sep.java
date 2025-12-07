@@ -14,7 +14,7 @@ class Solution {
             }
             else if(cnt==maxi)
             {
-                ans+=cnt;
+                ans=ans+cnt;
             }
         }
         return ans;
