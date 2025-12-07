@@ -78,7 +78,7 @@ class MovieRentingSystem {
     {
         long k = key(shop, movie);
         Node node = byPair.get(k);
-        if (node == null)
+        if (node==null)
             return;
         rentedSet.remove(node);
         availableByMovie
