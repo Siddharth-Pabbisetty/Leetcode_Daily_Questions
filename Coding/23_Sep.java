@@ -5,7 +5,7 @@ class Solution {
         String[] ver1 = version1.split("\\.");
         String[] ver2 = version2.split("\\.");
 
-        int l = Math.max(ver1.length, ver2.length);
+        int l=Math.max(ver1.length,ver2.length);
         for (int i = 0; i < l; i++)
         {
             int v1 = i < ver1.length ? Integer.parseInt(ver1[i]) : 0;
