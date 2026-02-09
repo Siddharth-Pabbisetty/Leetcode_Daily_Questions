@@ -14,7 +14,7 @@ class Solution {
         int[][] dp=new int[n][m];
         int[] temp=new int[maxi+1];
         int[] best=new int[maxi+1];
-        Arrays.fill(temp, Integer.MAX_VALUE);
+        Arrays.fill(temp,Integer.MAX_VALUE);
         temp[grid[n-1][m-1]]=0;
         for(int i=n-1;i>=0;i--)
         {
