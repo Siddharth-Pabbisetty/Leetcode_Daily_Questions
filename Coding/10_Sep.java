@@ -31,9 +31,7 @@ class Solution {
                 users.add(u2);
             }
         }
-
         int ans = userLanguages.length + 1;
-
         for (int i=1; i<=totalLanguages;i++)
         {
             int cnt=0;
