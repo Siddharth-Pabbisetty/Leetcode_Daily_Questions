@@ -15,7 +15,8 @@ class Solution {
     }
 
     public boolean containsZero(int n){
-        while(n>0){
+        while(n>0)
+        {
             int r=n%10;
             if(r==0)
                 return true;
