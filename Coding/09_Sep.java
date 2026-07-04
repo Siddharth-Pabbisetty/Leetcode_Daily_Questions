@@ -4,7 +4,8 @@ class Solution {
     public int peopleAwareOfSecret(int n, int delay, int forget) {
         long[] dp = new long[n + 1];
         dp[1] = 1;
-        long ans=0, secret=0, MOD=(long)1e9 + 7;
+        long ans=0, secret=0;
+        long MOD=(long)1e9 + 7;
         for (int i = 2; i <= n; i++)
         {
             if (i-delay > 0)
