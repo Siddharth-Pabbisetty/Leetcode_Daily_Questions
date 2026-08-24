@@ -20,13 +20,13 @@ class Solution {
         while(!q.isEmpty())
         {
             int u=q.poll();
-            for(int v:l[u])
+            for(int i:l[u])
             {
-                inDegree[v]--;
-                if(!b[v])
+                inDegree[i]--;
+                if(!b[i])
                 {
-                    q.offer(v);
-                    b[v]=true;
+                    q.offer(i);
+                    b[i]=true;
                 }
             }
         }
