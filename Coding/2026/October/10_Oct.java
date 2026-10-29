@@ -4,7 +4,7 @@ class Solution {
     public long minSumSquareDiff(int[] nums1, int[] nums2, int k1, int k2) {
         int[] arr=new int[100001];
         long k=(long)k1+k2;
-        int sum=0;
+        long sum=0;
         int maxi=0;
         for(int i=0;i<nums1.length;i++)
         {
